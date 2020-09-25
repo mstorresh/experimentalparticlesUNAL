@@ -1,3 +1,14 @@
+# Homeworks
+
+-HW1: folder Atlas 1, Hw about Tracks, Clusters and particles.
+
+-HW2: folder Jets, Hw about the Jets. 
+
+
+
+
+# Notas para tener en cuenta luego de la instalación de ROOT
+
 Para el root en notebook, especialmente el de c++, toca descargar el metakernel
 
 python -m pip install metakernel
