@@ -31,3 +31,15 @@ para editar eso toca abrirlo de la siguiente forma:    emacs ~/.bashrc
 
 y en este archivo se pega toda esas líneas antes de donde dice : >>> conda initialize >>>
 
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
+export PATH=/home/mstorresh/anaconda3/bin:$PATH
+export ROOTSYS=/mstorresh/local
+export PATH=$PATH:$ROOTSYS/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOTSYS/lib
+export PYTHONPATH=$PYTHONPATH:$ROOTSYS/lib
+source $HOME/Root/root-6.20.04/build/bin/thisroot.sh
+
+source $HOME/repos/spack/share/spack/setup-env.sh
+
+
+
